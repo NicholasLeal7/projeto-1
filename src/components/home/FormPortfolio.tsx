@@ -71,10 +71,10 @@ export const FormPortfolio = () => {
             <div className="preview">
                 <h2>Pré-visualizador</h2>
                 <div className="preview-box">
-                    <div className="box">AAAAAAA</div>
+                    <div className="box">Visualição aqui</div>
                     <div className="change-theme">
                         <div className="color-dark">
-                            <h3>Dark Mode</h3>
+                            <h3>Escuro</h3>
                             <div className="pallet">
                                 <div className="top-left"></div>
                                 <div className="bottom-right"></div>
@@ -82,7 +82,7 @@ export const FormPortfolio = () => {
                             <div className="radio"></div>
                         </div>
                         <div className="color-light">
-                            <h3>Light Mode</h3>
+                            <h3>Claro</h3>
                             <div className="pallet">
                                 <div className="top-left"></div>
                                 <div className="bottom-right"></div>
