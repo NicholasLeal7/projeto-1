@@ -1,0 +1,28 @@
+.section-contact {
+    padding: 1rem 8% 2rem;
+    min-height: calc(100vh - 100px);
+    padding-top: 130px;
+    background-color: var(--primary-color);
+
+    h2 {
+        font-size: 36px;
+        text-align: center;
+        color: var(--text-color);
+    }
+
+    .contacts {
+        max-width: 1040px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    section.section-contact {
+        height: calc(100vh - 0px);
+    }
+}

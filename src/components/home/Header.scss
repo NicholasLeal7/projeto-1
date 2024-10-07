@@ -1,0 +1,56 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 2rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    border-bottom: 1px solid #27272a;
+    z-index: 99;
+
+    .left-side {
+        display: flex;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-right: 1.0rem;
+            gap: 0.5rem;
+            font-weight: bold;
+            font-size: 20px;
+
+            svg {
+                width: 1.0rem;
+                height: 1.0rem;
+            }
+        }
+
+        nav {
+            display: none;
+            gap: 1rem;
+
+            a {
+                opacity: 0.60;
+                transition: all .3s ease;
+                font-size: 20px;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    header {
+        justify-content: space-between;
+        // border: none;
+    }
+
+    header .left-side nav {
+        display: flex;
+    }
+}

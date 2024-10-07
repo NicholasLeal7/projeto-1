@@ -1,0 +1,24 @@
+section.section-faq {
+    padding: 6rem 8%;
+    min-height: 100vh;
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .faq-area {
+        max-width: 1040px;
+        margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    section.section-faq {
+        // min-height: calc(100vh - 89px);
+    }
+}

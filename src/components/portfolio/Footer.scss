@@ -1,0 +1,100 @@
+footer.footer-home {
+    width: 100%;
+    border-top: 2px solid var(--header-bar);
+
+    #footer_content_portfolio {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 3.5rem;
+        gap: 5rem;
+
+        h1 {
+            margin-bottom: 0.75rem;
+            font-size: 36px;
+
+            .icon {
+                width: 1.5rem;
+                margin-right: 0.5rem;
+                height: 100%;
+            }
+        }
+
+        p {
+            opacity: 0.6;
+        }
+
+        #footer_social_media_portfolio {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1.5rem;
+
+            a svg {
+                width: 1rem;
+                height: 1rem;
+            }
+        }
+
+        .footer-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+
+            .footer-link {
+                opacity: 0.6;
+            }
+        }
+
+        #footer_subscribe_portfolio {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            #input_group_portfolio {
+                display: flex;
+                align-items: center;
+                border-radius: 4px;
+                background-color: #27272a;
+                border-radius: 4px;
+
+                input {
+                    all: unset;
+                    padding: 0.75rem;
+                    width: 100%;
+                }
+
+                button {
+                    background-color: #4f4f51;
+                    border: none;
+                    padding: 0 1.25rem;
+                    font-size: 1.125rem;
+                    height: 100%;
+                    border-radius: 0px 4px 4px 0px;
+                    cursor: pointer;
+
+                    svg {
+                        width: 1rem;
+                        height: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer_copyright_portfolio {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 1.5rem;
+        font-weight: 100;
+        background-color: #27272a;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    footer.footer-home {
+        #footer_content_portfolio {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10rem;
+        }
+    }
+}

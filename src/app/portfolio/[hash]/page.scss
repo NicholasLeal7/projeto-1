@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #f0f3fc;
+    --secondary-color: #6f35fc;
+    --text-color: #27272a;
+    --header-bar: #c7c6c6;
+}
+
+.portfolio-page.dark {
+    --primary-color: #09090b;
+    --secondary-color: #b25249;
+    --text-color: #fff;
+    --header-bar: #27272a;
+}
+
+.portfolio-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    position: relative;
+
+    .portfolio-main {
+        flex: 1;
+    }
+}
